@@ -1,0 +1,28 @@
+{
+  "name": "torounit/wp-sitemanager-mypace-custom-title-tag-adapter",
+  "description": "wp-sitemanager-mypace-custom-title-tag-adapter",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Hiroshi Urabe",
+      "email": "mail@torounit.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "squizlabs/php_codesniffer": "*",
+    "wp-coding-standards/wpcs": "*"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs/"
+    ],
+    "post-update-cmd": [
+      "php vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs/"
+    ],
+    "phpcs": [
+      "php vendor/bin/phpcs -p -s -v -n . --standard=./phpcs.ruleset.xml --extensions=php"
+    ]
+  }
+}
