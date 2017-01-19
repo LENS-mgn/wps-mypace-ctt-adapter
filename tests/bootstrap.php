@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file
  *
- * @package Wp_SiteManager_Mypace_Custom_Title_Tag_Adapter
+ * @package WP_SiteManager_Mypace_Custom_Title_Tag_Adapter
  */
 
 $_tests_dir = getenv( 'WP_TESTS_DIR' );

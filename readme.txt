@@ -1,4 +1,4 @@
-=== Wp SiteManager Mypace Custom Title Tag Adapter ===
+=== WP SiteManager Mypace Custom Title Tag Adapter ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: http://example.com/
 Tags: comments, spam

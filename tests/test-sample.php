@@ -2,7 +2,7 @@
 /**
  * Class SampleTest
  *
- * @package Wp_SiteManager_Mypace_Custom_Title_Tag_Adapter
+ * @package WP_SiteManager_Mypace_Custom_Title_Tag_Adapter
  */
 
 /**
