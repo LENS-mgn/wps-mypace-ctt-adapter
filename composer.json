@@ -1,5 +1,5 @@
 {
-  "name": "torounit/wp-sitemanager-mypace-custom-title-tag-adapter",
+  "name": "lens-mgn/wp-sitemanager-mypace-custom-title-tag-adapter",
   "description": "wp-sitemanager-mypace-custom-title-tag-adapter",
   "type": "wordpress-plugin",
   "license": "GPL-2.0+",
@@ -11,8 +11,8 @@
   ],
   "require": {},
   "require-dev": {
-    "squizlabs/php_codesniffer": "*",
-    "wp-coding-standards/wpcs": "*"
+    "squizlabs/php_codesniffer": "^2.7.1",
+    "wp-coding-standards/wpcs": "^0.10.0"
   },
   "scripts": {
     "post-install-cmd": [
