@@ -8,7 +8,7 @@ class WP_SiteManager_Mypace_Custom_Title_Tag_Adapter {
 	 * @return static
 	 */
 	final public static function get_instance() {
-		if ( self::$instance == null ) {
+		if ( null === self::$instance ) {
 			self::$instance = new static();
 		}
 		return static::$instance;
