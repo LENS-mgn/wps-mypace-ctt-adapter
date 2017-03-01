@@ -5,6 +5,10 @@
  * @package WP_SiteManager_Mypace_Custom_Title_Tag_Adapter
  */
 
+if ( ! isset( $_SERVER['HTTP_USER_AGENT'] ) ) {
+	$_SERVER['HTTP_USER_AGENT'] = '';
+}
+
 $_tests_dir = getenv( 'WP_TESTS_DIR' );
 if ( ! $_tests_dir ) {
 	$_tests_dir = '/tmp/wordpress-tests-lib';
