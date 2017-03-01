@@ -1,6 +1,6 @@
 <?php
 
-class WP_SiteManager_Mypace_Custom_Title_Tag_Adapter {
+class WPS_Mypace_CTT_Adapter {
 
 	private static $instance = null;
 

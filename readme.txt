@@ -1,4 +1,4 @@
-=== WP SiteManager Mypace Custom Title Tag Adapter ===
+=== WPS Mypace CTT Adapter ===
 Contributors: megane9988, Toro_Unit
 Tags: seo, title
 Requires at least: 4.4
