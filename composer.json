@@ -1,6 +1,6 @@
 {
   "name": "lens-mgn/wps-mypace-ctt-adapter",
-  "description": "Attach mypace-custom-title-tag with wp-sitemanager",
+  "description": "Mypace Custom Title Tag support for WP SiteManager.",
   "type": "wordpress-plugin",
   "license": "GPL-2.0+",
   "authors": [
