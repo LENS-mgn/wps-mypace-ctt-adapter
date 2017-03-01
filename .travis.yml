@@ -11,12 +11,12 @@ branches:
 
 php:
   - 5.3
-  - 5.6
+  - 7.1
 
 env:
   - WP_VERSION=latest WP_MULTISITE=0
   - WP_VERSION=4.4 WP_MULTISITE=0
-  - WP_VERSION=4.7.1 WP_MULTISITE=0
+  - WP_VERSION=4.7.2 WP_MULTISITE=0
 
 matrix:
   include:
