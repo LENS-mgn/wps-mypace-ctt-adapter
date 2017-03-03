@@ -8,7 +8,7 @@
  * Author URI:      https://www.m-g-n.me/
  * Text Domain:     wp-sitemanager-mypace-custom-title-tag-adapter
  * Domain Path:     /languages
- * Version:         0.2.0
+ * Version:         0.2.1
  *
  * @package         WPS_Mypace_CTT_Adapter
  */
